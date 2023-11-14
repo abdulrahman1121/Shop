@@ -70,6 +70,23 @@ body{
     font-size: 5rem;
 }
 
-.main-section .right-content{
-    
+.main-section .left-content{
+    width: 100%;
 }
+
+.main-section .right-content{
+    width: 100%;
+    position: relative;
+}
+
+.main-section .right-content .images-con{
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
