@@ -85,8 +85,50 @@ body{
 
 .circle{
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: 50%;
     z-index: -1;
+    transform: translateX(-50%) translateY(-5%);
+    top: auto;
 }
 
+.shopper{
+    position: absolute;
+    left: 50%;
+    z-index: 5;
+    transform: translateX(-60%);
+    top: auto;
+}
+
+.dots{
+    position: absolute;
+    right: 0;
+    transform: translateY(-50%);
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dot-1, .dot-2, .dot-3{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: red;
+    margin: .6rem 0;
+    cursor: pointer;
+}
+
+.dot-1{
+    background-color: #EF5DA8;
+}
+
+.dot-2, .dot-3{
+    background-color: white;
+    margin: 1px solid #EF5DA8;
+}
+
+.h-btn{
+    color: #EF5DA8;
+    margin-top: 2rem;
+    display: inline-block;
+
+}
